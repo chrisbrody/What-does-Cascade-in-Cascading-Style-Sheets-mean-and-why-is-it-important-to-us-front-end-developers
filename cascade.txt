@@ -1,0 +1,45 @@
+#CSS_CASCADE 1.1 - Intro to Cascade in CSS
+#CSS_CASCADE 1.2 - What is Cascading
+#CSS_CASCADE 1.3 - How does that affect my CSS
+#CSS_CASCADE 1.4 - When will I use this
+#CSS_CASCADE 1.5 - Outro to Cascade in CSS
+
+
+
+#CSS_CASCADE 1.1 - Intro to Cascade in CSS
+Hey Chris from Codify Academy here, in this video I want to look at what the Cascade in CSS means and how the concept of Cascade is important to us in CSS.
+
+
+
+#CSS_CASCADE 1.2 - What is Cascading
+If we look at the definition of the noun cascade, we can look below to the second one, we see it says its the process of passing on knowledge.
+so remember Cascade in CSS means it pass styles on.
+
+
+
+#CSS_CASCADE 1.3 - How does that affect my CSS
+Hopefully you're asking yourself, well how this work-?
+
+Lets take a look at an example
+
+if we use the same selector with the same property twice in CSS, which value should apply?  Keep in mind CSS reads top to bottom.
+
+That's right, so whatever value is found last will be applied to those elements.
+
+Since the anchor tag selector, with the color set to tomato, is found lower on the CSS page, then that value is applied, and if we look in your browser we can see, both properties are on the element, but only the one being applied doesn't have a line through it.
+
+
+
+#CSS_CASCADE 1.4 - When will I use this
+So when are you going use this? because hopefully weren't thinking, Great I can reuse the same selector in my stylesheets.
+
+Well you can but you don't really need to because you can put it in your first selector.
+
+However, sometimes at your job you can get a project that you need to make changes to, but you can't change any existing code. So then you would have to write new selectors to overwrite what they want to change.
+
+You can always go into their code, and highlight the element you need to change, find the selector they use over here in CSS, Then in your code you would use the same selector and as long as this new code you write is found below their original CSS, Cascading will take care of the rest and it should apply.  If it doesn't work you at least have a starting point now for how to fix it.
+
+
+
+#CSS_CASCADE 1.5 - Outro to Cascade in CSS
+That's all for now, remember, all styles cascade from the top of our style sheet to the bottom of our style sheet.
